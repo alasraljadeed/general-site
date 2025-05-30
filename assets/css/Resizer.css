@@ -82,21 +82,3 @@
   }
 }
 
-@media (min-width: 300px) {
-  .Home_Slider_button_resizer {
-    height: 90%;
-  }
-}
-
-@media (min-width: 576px) {
-  .Home_Slider_button_resizer {
-    height: 65%;
-  }
-}
-
-@media (min-width: 768px) {
-  .Home_Slider_button_resizer {
-    height: 55%;
-  }
-}
-

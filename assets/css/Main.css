@@ -114,15 +114,16 @@
 
 .Home_slider_image_style {
   object-position: bottom;
+  position: relative;
 }
 
 .Home_Slider_button {
-  width: 96%;
-  background: rgba(240,240,240,0);
-  border-style: none;
-  object-position: bottom;
-  transform: translateX(2%) translateY(-105%);
+  /*object-position: bottom;*/
   position: absolute;
+  height: 90%;
+  width: 90%;
+  margin-top: 2%;
+  margin-left: 5%;
 }
 
 .Blog-post-mid-container {
