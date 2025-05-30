@@ -7,6 +7,15 @@
   will-change: transform;
 }
 
+.card.fade-up {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.card.fade-up.start {
+  animation: fadeUp 0.6s ease-out forwards;
+}
+
 @keyframes fadeUp {
   from {
     opacity: 0;
@@ -18,12 +27,23 @@
   }
 }
 
-.card.fade-up {
+.carousel.carousel-fade .carousel-item {
   opacity: 0;
-  transform: translateY(30px);
+  transition: opacity 1s ease;
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  display: block;
 }
 
-.card.fade-up.start {
-  animation: fadeUp 0.6s ease-out forwards;
+.carousel.carousel-fade .carousel-item.active {
+  opacity: 1;
+  position: relative;
+}
+
+.carousel.carousel-fade .carousel-item.carousel-item-next.carousel-item-left, .carousel.carousel-fade .carousel-item.carousel-item-prev.carousel-item-right {
+  opacity: 0;
 }
 

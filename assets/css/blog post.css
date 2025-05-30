@@ -1,0 +1,140 @@
+.post_heading {
+  text-align: right;
+  margin-bottom: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: bold;
+  color: rgb(24,21,30);
+}
+
+.heading-div {
+  margin-top: 20px;
+  height: fit-content;
+  padding-bottom: 15px;
+}
+
+.top-image-div {
+  overflow: clip;
+  margin-top: -3%;
+}
+
+@media (min-width: 300px) {
+  .top-image-div {
+    height: 144px;
+  }
+}
+
+@media (min-width: 768px) {
+  .top-image-div {
+    height: 190px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .top-image-div {
+    height: 283px;
+  }
+}
+
+@media (min-width: 300px) {
+  .post_heading {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 576px) {
+  .post_heading {
+    font-size: 24.4px;
+  }
+}
+
+@media (min-width: 768px) {
+  .post_heading {
+    font-size: 28.4px;
+  }
+}
+
+@media (min-width: 992px) {
+  .post_heading {
+    font-size: 32.4px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .post_heading {
+    font-size: 40.4px;
+  }
+}
+
+.post.body.paragraph {
+  text-align: right;
+  font-family: Vazirmatn, sans-serif;
+  color: rgb(24,21,30);
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 25px;
+}
+
+@media (min-width: 300px) {
+  .post.body.paragraph {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 576px) {
+  .post.body.paragraph {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .post.body.paragraph {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .post.body.paragraph {
+    font-size: 32px;
+  }
+}
+
+.blog-post-card {
+  background: rgb(227,214,255);
+  padding-top: 12px;
+  padding-right: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  box-shadow: 6px 6px 6px 1px rgba(0,0,0,0.18);
+}
+
+.blog-post-column {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.blog-post-sup {
+  margin: 9px;
+  margin-left: 10px;
+  background: #e3d6ff;
+  padding: 4px;
+  font-family: Vazirmatn, sans-serif;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-right: 0px;
+  padding-right: 6px;
+  padding-left: 6px;
+}
+
+@media (min-width: 300px) {
+  .blog-post-sup {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .blog-post-sup {
+    font-size: 24px;
+  }
+}
+

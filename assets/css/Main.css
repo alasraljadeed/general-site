@@ -59,7 +59,7 @@
 }
 
 .sticky_div_mid_content_style {
-  background: linear-gradient(rgba(203,194,228,0.35), rgba(255,255,255,0) 100%), url("../../assets/img/BackGround/pexels-instawalli-176851.png");
+  background: linear-gradient(rgba(203,194,228,0.35) -37%, rgba(255,255,255,0) 56%), url("../../assets/img/about/pexels-instawalli-176851.jpg");
   width: 100%;
   box-shadow: 0px 0px 20px 8px;
 }
@@ -110,5 +110,22 @@
 .about_mid_content_card {
   margin-right: 2%;
   margin-left: 2%;
+}
+
+.Home_slider_image_style {
+  object-position: bottom;
+}
+
+.Home_Slider_button {
+  width: 96%;
+  background: rgba(240,240,240,0);
+  border-style: none;
+  object-position: bottom;
+  transform: translateX(2%) translateY(-105%);
+  position: absolute;
+}
+
+.Blog-post-mid-container {
+  padding-top: 5%;
 }
 

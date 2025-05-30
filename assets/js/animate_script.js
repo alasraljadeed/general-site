@@ -6,3 +6,5 @@ document.addEventListener('DOMContentLoaded', () => {
     }, index * 200); // ← 200 ميلي ثانية بين كل بطاقة والثانية
   });
 });
+
+
