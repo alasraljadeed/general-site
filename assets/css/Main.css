@@ -124,6 +124,8 @@
   width: 90%;
   margin-top: 2%;
   margin-left: 5%;
+  background: rgba(25,135,84,0);
+  border-style: none;
 }
 
 .Blog-post-mid-container {
